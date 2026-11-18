@@ -1,0 +1,7 @@
+Pull the remote changes
+git pull --rebase origin main
+
+git add .
+git rebase --continue       # use if merge conflict
+git commit -m ""
+git push origin main
